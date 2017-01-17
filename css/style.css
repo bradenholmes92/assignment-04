@@ -1,0 +1,198 @@
+*{
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+
+#app-container{
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+}
+
+.splash{
+  background-image: url('../images/hero-splash-roommates-fun.jpg');
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.insider{
+  background: transparent;
+  color: #fff;
+   text-align: center;
+   font-family: "Helvetica";
+}
+
+.insider h1{
+  font-weight: 200;
+}
+
+.insider p{
+  font-size: 12px;
+}
+.columns-container{
+  font-size: 0;
+}
+.pictures-column{
+  margin: 0 auto;
+}
+
+
+.town{
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.city{
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  padding: 9px 15px 9px 15px;
+}
+
+.more-cities {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  color: orange;
+  border: 2px orange solid;
+  padding: 1.25px;
+}
+
+.room{
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  padding: 9px 15px 9px 15px;
+}
+
+.list-column{
+  margin: 0 auto;
+  background-color: lightgray;
+  font-family: "Helvetica";
+}
+
+.room{
+ display: inline-block;
+ position: relative;
+ vertical-align: top;
+ width: 24%;
+ padding: 9px 15px 9px 15px;
+}
+
+.verified-listings{
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+  width: 24%;
+  padding: 9px 15px 9px 15px;
+  line-height: 13px;
+}
+
+.room{
+  background-color: white;
+  color: black;
+  padding: 0;
+  border: 1px black solid;
+  margin: 12px;
+}
+
+.general-listings{
+  color: white;
+  background-color: darkgrey;
+  margin: 0 auto;
+}
+
+.list-head{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 24%;
+  padding: 9px 15px 9px 15px;
+}
+
+.social-media{
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.neg-space{
+  width: 1000px;
+  background-color: darkgray;
+}
+
+
+.logo{
+  display: inline-block;
+  vertical-align: top;
+  background-color: darkgray;
+  float: right;
+  width: 7%;
+  padding: 6px 12px 6px 12px;
+}
+
+
+.question-box{
+  display: block;
+  border: 6px solid #29BBAF;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 270px;
+  height: 20%;
+  background-color: white;
+}
+
+.question-box h1{
+  background: #B0E6E2;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  padding: 2px 2px 8px 5px;
+  border-bottom: 1px #ccc solid;
+  color: #333;
+  margin-bottom: 8px;
+  margin-top: -1px;
+}
+
+.question-box img{
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin: 0px 5px 0px 0px;
+  border: 1px #ccc solid;
+  border-radius: 100px;
+}
+
+.question-box p{
+  background-color: white;
+  color: black;
+}
+
+.question-box span{
+  color: #F55E05;
+}
+
+.header{
+  background-color: #F55E05;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 100%;
+  padding: 6px 12px 6px 12px;
+}
+
+.header img{
+  width:12%;
+}
+
+.header button{
+  float: right;
+}
