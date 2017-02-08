@@ -21,7 +21,9 @@ img{
    text-align: center;
    font-family: "Helvetica";
 }
-
+.insider form{
+ color: transparent;
+}
 .insider h1{
   font-weight: 200;
 }
@@ -53,16 +55,15 @@ img{
   padding: 9px 15px 9px 15px;
 }
 
+
 .more-cities {
   text-align: center;
   display: inline-block;
   position: relative;
-  top: 50%;
-  left: 50%;
+  left: 44%;
   width: 100px;
   color: orange;
   border: 2px orange solid;
-  padding: 1.25px;
 }
 
 .room{
@@ -109,32 +110,60 @@ img{
   margin: 0 auto;
 }
 
-.list-head{
+.list-headmiddle{
   display: inline-block;
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
   vertical-align: top;
   float: right;
-  width: 24%;
-  padding: 9px 15px 9px 15px;
+  font-weight: lighter;
+  width: 33.333%;
+  padding-top: 15px;
+  padding-right: 50px;
 }
+.list-headleft{
+  display: inline-block;
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+  vertical-align: top;
+  text-align: left;
+  font-weight: lighter;
+  width: 33.333%;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.list-headright{
+  display: inline-block;
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+  vertical-align: top;
+  float: right;
+  font-weight: lighter;
+  width: 33.333%;
+  padding-top: 15px;
+}
+
 
 .social-media{
   margin: 0 auto;
-  display: inline-block;
+  background: darkgray;
 }
 
 .neg-space{
-  width: 1000px;
-  background-color: darkgray;
+  width: 85%;
+  color: darkgray;
 }
-
-
+.logo-cont{
+  padding-left: 500px;
+  background: darkgray;
+}
 .logo{
   display: inline-block;
   vertical-align: top;
+}
+
+.logo img{
+  display: inline-block;
+  vertical-align: top;
   background-color: darkgray;
-  float: right;
-  width: 7%;
-  padding: 6px 12px 6px 12px;
+  width: 48%;
 }
 
 
@@ -195,4 +224,7 @@ img{
 
 .header button{
   float: right;
+  background: #F55E05;
+  color: white;
+  border: none;
 }
